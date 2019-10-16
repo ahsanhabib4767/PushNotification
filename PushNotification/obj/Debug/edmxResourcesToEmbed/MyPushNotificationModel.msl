@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MyPushNotificationModelStoreContainer" CdmEntityContainer="MyPushNotificationEntities">
+    <EntitySetMapping Name="descriptionTables">
+      <EntityTypeMapping TypeName="MyPushNotificationModel.descriptionTable">
+        <MappingFragment StoreEntitySet="descriptionTable">
+          <ScalarProperty Name="AddedOn" ColumnName="AddedOn" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
